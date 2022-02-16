@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>Sistem Audio Mobil</title>
+        <!-- Favicon-->
+        <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+        <!-- Bootstrap icons-->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="css/styles.css" rel="stylesheet" />
+    </head>
+    <body>
+        <!-- Responsive navbar-->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container px-5">
+                <a class="navbar-brand" href="#!">Sistem Audio Mobil</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item"><a class="nav-link active" aria-current="page" href="#!">Beranda</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#!">Komponen</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#!">Cara Kerja</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#!">Perawatan</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#!">Simulasi</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- Header-->
+        <header class="bg-dark py-5">
+            <div class="container px-5">
+                <div class="row gx-5 justify-content-center">
+                    <div class="col-lg-6">
+                        <div class="text-center my-5">
+                            <h1 class="display-5 fw-bolder text-white mb-2">Sistem Audio Mobil</h1>
+                            <p class="lead text-white-50 mb-4">Quickly design and customize responsive mobile-first sites with Bootstrap, the world’s most popular front-end open source toolkit!</p>
+                            <div class="d-grid gap-3 d-sm-flex justify-content-sm-center">
+                                <a class="btn btn-primary btn-lg px-4 me-sm-3" href="#features">Mulai Belajar</a>
+                                <!-- <a class="btn btn-outline-light btn-lg px-4" href="#!">Learn More</a> -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <!-- Features section-->
+        <section class="py-5 border-bottom" id="features">
+            <div class="container px-5 my-5">
+                <center><h1>Komponen </h1>
+                <hr width="10%">
+                </center>
+                <br>
+                <div class="row gx-5">
+                    <div class="col-lg-3 mb-4">
+                        <div class="card" style="width: 18rem;">
+                            <img src="data:image/jpeg;base64,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" class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <h5 class="card-title">Card title</h5>
+                              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                              <a href="#" class="btn btn-primary">Go somewhere</a>
+                            </div>
+                          </div>
+                    </div>
+                    <div class="col-lg-3 mb-4">
+                        <div class="card" style="width: 18rem;">
+                            <img src="data:image/jpeg;base64,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" class="card-img-top" alt="...">
+                            
+                            <div class="card-body">
+                              <h5 class="card-title">Card title</h5>
+                              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                              <a href="#" class="btn btn-primary">Go somewhere</a>
+                            </div>
+                          </div>
+                    </div>
+                    <div class="col-lg-3 mb-4">
+                        <div class="card" style="width: 18rem;">
+                            <img src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBwcNDQcHBwcHBwcHBw0HBwcHBw8IDQcOFhEWFhYRHxcZHTQjGBoxGxUVJDMtJSk3OjY5GCszPTMsQygtLisBCgoKDg0NFQ8NFy8lHx8rMC0rNiw3NzcvNy4rLSsrKystKy0rLSsrNysrKystMi4tKy0rLSsuLSsrKy03Ky0tK//AABEIALcBEwMBEQACEQEDEQH/xAAbAAEBAQADAQEAAAAAAAAAAAAAAQYDBQcEAv/EADsQAQACAQECCAoJBQEAAAAAAAABAgMEBREGEhMWITFRsjNBVFVxdJKU0uIHFBU1UnKBpNEjMkKxwWH/xAAaAQEBAQADAQAAAAAAAAAAAAAAAQUCAwQG/8QAMxEBAAECAgUJCQEBAQAAAAAAAAECAwQRFDFxgfAFFSEkMlFioeESEzNBUmGRscE00SL/2gAMAwEAAhEDEQA/AOZ9G+NAAAAUAAFAAFAEAAAAAAAAAABUAAQAEAAAABAAUAAAAFABQABRAAAAAAAAAAAAAAUBAEABAAAAAQFAAABQAUABFAAAUAAAAAAAAEAAAAUBAEABAAAAAAAAUAFQFBFAAAUAAAAAAAAAAAEAAAAVAEABAAAAAAUAAFAFEAFAAAAAFAUAEAEAAAAQAABQEQAAEAAAABQAUAUQAAUAAAVQAAAAAAAQQAABAAAFQBAAQAAAAFBYAARQAFAAAFUAAAAAAAAAEEAAAQAABUQAEAAABQAUAUQAUAAAVQAAAAAAAAAAAQQABAAAFQBAAQAAFABQBRABQAAUUAB3vB3g9GupqMs6udNyGWMfFjDynG3xv39by4jE+6mIyzze7CYP39Mz7WWTt+Ykec590+Z0af4Xq5p8fl6nMSPOk+6fMaf4Tmnx+XqcxI85z7p8xp/hOafH5epzEjznPunzGn+E5p8fl6nMSPOc+6fMaf4Tmnx+XqcxI86T7n8xp/hOafH5er8ZuA8VplyfaUzyeO1931Tdv3Rv/EsY7OYj2Uq5LyiZ9vy9WNhoMhQAQQABAAFARAAQAAFABQEUABQABVAABuvo78Dr/Wq91mY/tU7G3yV2K9v8ZrXbX2rGbV0rtHW1rXVZa1rGptEViLzujreyizb9mP8AzGpnXMRdiuqIrnXP7cmz83CTUzemi1W0c84435LRq5rWn6zO5xrpsUduIcrVWJuzlbqmd7j1ev2/gvbT6rW7RwZqdM0vqbdXb19MOVNuzVGdMQ413cRRV7NdUxO1w/bG1vOeu96v/Ll7m39MOGk3vrn8n2ztbznrver/AMnubf0waTe+ufyfbO1vOeu96v8Aye5t/TBpN765/LacGNRny7O1OXU5sufJxs9eUzXm87uL1b5Z2Jpim9EUx3NnB11V4aZqnPW87jqj0NZ89CigIIAAgACgIgAIAACgoACKAoAAKKAAA3X0d+B1/rVe6zMf2qdjb5K7Fe3+MbtDw+t9cy9+WhR2KdkMi78SrbP7argTtfZ+HFn0eqz4tLlnUTnrkzW4lcsTER1z0b+h4cZZrqqiqmM2nydiLdFE0VzlOebr+Ge0tJqc+D6naMtNNhnHfPWOjJMzv3R2xH/XdhLVVFE+183n5Qv0Xbkex05Pl2Twe12rxajVYYrTHipPIcp0fW7x/jH89v67ud3EUW6opl12MHcvUzVT8tX3dTatom1L1tW9ZmtqWjizWY643O/XqeWYy6JRUb7gh92an8+fusrFfHjc3sB/lne8/jqj0NVgQooCACAIAAoCIACAAAoKAAigKAACigAAN19Hfgdf61XuszH9qnY2+SuxXt/jG7Q8PrfXMvfloUdinZDIu/Eq2z+3FSl543Epa/ErN78Ss24le2eyHLPLW4REzqdzwa2Dk1t+Vy8bHoMNv6uSOic0/gj/ALLz4jERajKNb2YPCTfnOezHGT0jDix0rTDipXHix1imOlI3RSI8THmZmc5fRU0xTERTqh1219iaPU4tVjjDhxanPMZY1NccRblIjdEzPj7P1d1q/VRVE59EPPfwtF2iqMspn5/d5hnw5Md8mDNSceXDeceSk/4zDZpmKoiYfNVUzTM01a4bvgh92an8+fuszFfHjc3MB/lnewEdUehqsCAUBABAAEAAVEABAAAUFAARQFAABRQAAG6+jzwOv9ar3WZj+1TsbfJXYr2/xlL6TUZ9XqdLpcc5M2XW5YrWOiIjjzvmZ8UPdFcUW4qq7oZc26rl6qmiOmZn9vRNg7G0+ixcnTdk1GSInU6jdunJPZ/5DIv3pu1Zzq+T6DDYamxTlGv5y7KlKViKY6VpWJmYrSsViN875dUzM63oiIjoh+kUBkOHOxuNX7W09P6mKsV1tax/fTxX/T/Xoe/B3sp93VuZPKWGzj3tPy1/93frY5+CH3Zqfz5+644r48bnZgP8s72Ar1R6GqwIBQEAEAAQABUQAEAABQUABFAUAAFFAAAbr6O/A6/1qvdZmP7VOxt8ldivb/HxYtl8KNPm12bZ+DHjjU6i9+Um2C9rV40zH93VHS7Ju2K6aYrnVtdNNjFW66ptxrn7Po3cO+2n7Zw6pxm7Ov8AGS7uHfbT9sdU4zOv8ZG7h320/bHVOMzr/GSbuHfbT9sdU4zOv8ZJanDmYtW3J2raJrato00xaOxc8Lxmkxj56J/jtOD+h1Wm0Gp0+rxxiy782TixeL9E16Op0X7lNd6Jp+z1YW1Vaw801x09LzaOqPQ2HzkKKAgAgCAAAKiAAgAAKACgIoACgACqAADtti7f1eirmxabFp8lc2SMlpzVtMxMRu8Uui9h6bsxNU6nqw+LrsRMUxHS7LnvtTybQ+xf4nToNvvl6OdLvdHG8577U8m0PsX+I0G33yc6Xe6ON5z32p5NofYv8RoNvvk50u90cbznvtTybQ+xf4jQbffJzpd7o43nPfank2h9i/xGg2++TnS73RxvOe+1PJtD7F/iNBt98nOl3ujje/GXhptO1b47afQxXJSaTMUvviJjd+JYwVETnnKTyndmJjKON7NQ9jOAAQQABAAFBERQBAAAUAFAFEAFAABRQAAAFAAABAAAAAQQABAAFARAAQAAFABQAEUBQAABVAAAAAAAAAAABBAAEAAAVAVBAEAABQAUABFAAUAAAVQAAAAAAAAAQAQABAAAFRAAQAAAAFABQBRAABQAABVAAAAAAABBAAAEAAAVBBFAEAAAABQAUABFAAUAAAAAUBQAQAQAAABAAAFARAAAQAAAAAFABQAEUAABQAAAAAAAAAAAQAAABUAQAEAAAAAABQAAUABFAAAUAAAAAAAAAEAAAAVAEABAAAAAAAAAUAAFAQBQAAAAAFABAAAAAAAFQQRQABAAAAQH/9k=" class="card-img-top" alt="...">
+                            
+                            <div class="card-body">
+                              <h5 class="card-title">Card title</h5>
+                              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                              <a href="#" class="btn btn-primary">Go somewhere</a>
+                            </div>
+                          </div>
+                    </div>
+                    <div class="col-lg-3 mb-4">
+                        <div class="card" style="width: 18rem;">
+                            <img src="data:image/jpeg;base64,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" class="card-img-top" alt="...">
+                            
+                            <div class="card-body">
+                              <h5 class="card-title">Card title</h5>
+                              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                              <a href="#" class="btn btn-primary">Go somewhere</a>
+                            </div>
+                          </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Pricing section-->
+        <section class="bg-light py-5 border-bottom">
+            <div class="container px-5 my-5">
+                <div class="text-center mb-5">
+                    <h2 class="fw-bolder">Cara Kerja</h2>
+                    <!-- <p class="lead mb-0">With our no hassle pricing plans</p> -->
+                </div>
+                <!-- <div class="row gx-5 justify-content-center">  -->
+                    <!-- Pricing card free-->
+                    <!-- <div class="col-lg-6 col-xl-4">
+                        <div class="card mb-5 mb-xl-0">
+                            <div class="card-body p-5">
+                                <div class="small text-uppercase fw-bold text-muted">Free</div>
+                                <div class="mb-3">
+                                    <span class="display-4 fw-bold">$0</span>
+                                    <span class="text-muted">/ mo.</span>
+                                </div>
+                                <ul class="list-unstyled mb-4">
+                                    <li class="mb-2">
+                                        <i class="bi bi-check text-primary"></i>
+                                        <strong>1 users</strong>
+                                    </li>
+                                    <li class="mb-2">
+                                        <i class="bi bi-check text-primary"></i>
+                                        5GB storage
+                                    </li>
+                                    <li class="mb-2">
+                                        <i class="bi bi-check text-primary"></i>
+                                        Unlimited public projects
+                                    </li>
+                                    <li class="mb-2">
+                                        <i class="bi bi-check text-primary"></i>
+                                        Community access
+                                    </li>
+                                    <li class="mb-2 text-muted">
+                                        <i class="bi bi-x"></i>
+                                        Unlimited private projects
+                                    </li>
+                                    <li class="mb-2 text-muted">
+                                        <i class="bi bi-x"></i>
+                                        Dedicated support
+                                    </li>
+                                    <li class="mb-2 text-muted">
+                                        <i class="bi bi-x"></i>
+                                        Free linked domain
+                                    </li>
+                                    <li class="text-muted">
+                                        <i class="bi bi-x"></i>
+                                        Monthly status reports
+                                    </li>
+                                </ul>
+                                <div class="d-grid"><a class="btn btn-outline-primary" href="#!">Choose plan</a></div>
+                            </div>
+                        </div>
+                    </div> -->
+                    <!-- Pricing card pro-->
+                    <!-- <div class="col-lg-6 col-xl-4">
+                        <div class="card mb-5 mb-xl-0">
+                            <div class="card-body p-5">
+                                <div class="small text-uppercase fw-bold">
+                                    <i class="bi bi-star-fill text-warning"></i>
+                                    Pro
+                                </div>
+                                <div class="mb-3">
+                                    <span class="display-4 fw-bold">$9</span>
+                                    <span class="text-muted">/ mo.</span>
+                                </div>
+                                <ul class="list-unstyled mb-4">
+                                    <li class="mb-2">
+                                        <i class="bi bi-check text-primary"></i>
+                                        <strong>5 users</strong>
+                                    </li>
+                                    <li class="mb-2">
+                                        <i class="bi bi-check text-primary"></i>
+                                        5GB storage
+                                    </li>
+                                    <li class="mb-2">
+                                        <i class="bi bi-check text-primary"></i>
+                                        Unlimited public projects
+                                    </li>
+                                    <li class="mb-2">
+                                        <i class="bi bi-check text-primary"></i>
+                                        Community access
+                                    </li>
+                                    <li class="mb-2">
+                                        <i class="bi bi-check text-primary"></i>
+                                        Unlimited private projects
+                                    </li>
+                                    <li class="mb-2">
+                                        <i class="bi bi-check text-primary"></i>
+                                        Dedicated support
+                                    </li>
+                                    <li class="mb-2">
+                                        <i class="bi bi-check text-primary"></i>
+                                        Free linked domain
+                                    </li>
+                                    <li class="text-muted">
+                                        <i class="bi bi-x"></i>
+                                        Monthly status reports
+                                    </li>
+                                </ul>
+                                <div class="d-grid"><a class="btn btn-primary" href="#!">Choose plan</a></div>
+                            </div>
+                        </div>
+                    </div> -->
+                    <!-- Pricing card enterprise-->
+                    <!-- <div class="col-lg-6 col-xl-4">
+                        <div class="card">
+                            <div class="card-body p-5">
+                                <div class="small text-uppercase fw-bold text-muted">Enterprise</div>
+                                <div class="mb-3">
+                                    <span class="display-4 fw-bold">$49</span>
+                                    <span class="text-muted">/ mo.</span>
+                                </div>
+                                <ul class="list-unstyled mb-4">
+                                    <li class="mb-2">
+                                        <i class="bi bi-check text-primary"></i>
+                                        <strong>Unlimited users</strong>
+                                    </li>
+                                    <li class="mb-2">
+                                        <i class="bi bi-check text-primary"></i>
+                                        5GB storage
+                                    </li>
+                                    <li class="mb-2">
+                                        <i class="bi bi-check text-primary"></i>
+                                        Unlimited public projects
+                                    </li>
+                                    <li class="mb-2">
+                                        <i class="bi bi-check text-primary"></i>
+                                        Community access
+                                    </li>
+                                    <li class="mb-2">
+                                        <i class="bi bi-check text-primary"></i>
+                                        Unlimited private projects
+                                    </li>
+                                    <li class="mb-2">
+                                        <i class="bi bi-check text-primary"></i>
+                                        Dedicated support
+                                    </li>
+                                    <li class="mb-2">
+                                        <i class="bi bi-check text-primary"></i>
+                                        <strong>Unlimited</strong>
+                                        linked domains
+                                    </li>
+                                    <li class="text-muted">
+                                        <i class="bi bi-check text-primary"></i>
+                                        Monthly status reports
+                                    </li>
+                                </ul>
+                                <div class="d-grid"><a class="btn btn-outline-primary" href="#!">Choose plan</a></div>
+                            </div>
+                        </div>
+                    </div> -->
+                <!-- </div> -->
+                <div class="row gx-5">
+                    <div class="col-lg-4 mb-5 mb-lg-0">
+                        <div class="feature bg-primary bg-gradient text-white rounded-3 mb-3"><i class="bi bi-collection"></i></div>
+                        <h2 class="h4 fw-bolder">Featured title</h2>
+                        <p>Paragraph of text beneath the heading to explain the heading. We'll add onto it with another sentence and probably just keep going until we run out of words.</p>
+                        <a class="text-decoration-none" href="#!">
+                            Call to action
+                            <i class="bi bi-arrow-right"></i>
+                        </a>
+                    </div>
+                    <div class="col-lg-4 mb-5 mb-lg-0">
+                        <div class="feature bg-primary bg-gradient text-white rounded-3 mb-3"><i class="bi bi-building"></i></div>
+                        <h2 class="h4 fw-bolder">Featured title</h2>
+                        <p>Paragraph of text beneath the heading to explain the heading. We'll add onto it with another sentence and probably just keep going until we run out of words.</p>
+                        <a class="text-decoration-none" href="#!">
+                            Call to action
+                            <i class="bi bi-arrow-right"></i>
+                        </a>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="feature bg-primary bg-gradient text-white rounded-3 mb-3"><i class="bi bi-toggles2"></i></div>
+                        <h2 class="h4 fw-bolder">Featured title</h2>
+                        <p>Paragraph of text beneath the heading to explain the heading. We'll add onto it with another sentence and probably just keep going until we run out of words.</p>
+                        <a class="text-decoration-none" href="#!">
+                            Call to action
+                            <i class="bi bi-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Testimonials section-->
+        <section class="py-5 border-bottom">
+            <div class="container px-5 my-5 px-5">
+                <div class="text-center mb-5">
+                    <h2 class="fw-bolder">Perawatan</h2>
+                    <!-- <p class="lead mb-0">Our customers love working with us</p> -->
+                </div>
+                <div class="row gx-5">
+                    <div class="col-lg-4">
+                        <!-- Testimonial 1-->
+                        <div class="card mb-4">
+                            <div class="card-body p-4">
+                                <div class="d-flex">
+                                    <div class="flex-shrink-0"><i class="bi bi-chat-right-quote-fill text-primary fs-1"></i></div>
+                                    <div class="ms-4">
+                                        <p class="mb-1">Thank you for putting together such a great product. We loved working with you and the whole team, and we will be recommending you to others!</p>
+                                        <div class="small text-muted">- Client Name, Location</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                        <!-- Testimonial 2-->
+                    <div class="col-lg-4">
+                        <div class="card mb-4">
+                            <div class="card-body p-4">
+                                <div class="d-flex">
+                                    <div class="flex-shrink-0"><i class="bi bi-chat-right-quote-fill text-primary fs-1"></i></div>
+                                    <div class="ms-4">
+                                        <p class="mb-1">The whole team was a huge help with putting things together for our company and brand. We will be hiring them again in the near future for additional work!</p>
+                                        <div class="small text-muted">- Client Name, Location</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <!-- Testimonial 1-->
+                        <div class="card mb-4">
+                            <div class="card-body p-4">
+                                <div class="d-flex">
+                                    <div class="flex-shrink-0"><i class="bi bi-chat-right-quote-fill text-primary fs-1"></i></div>
+                                    <div class="ms-4">
+                                        <p class="mb-1">Thank you for putting together such a great product. We loved working with you and the whole team, and we will be recommending you to others!</p>
+                                        <div class="small text-muted">- Client Name, Location</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                        <!-- Testimonial 2-->
+                    <div class="col-lg-4">
+                        <div class="card mb-4">
+                            <div class="card-body p-4">
+                                <div class="d-flex">
+                                    <div class="flex-shrink-0"><i class="bi bi-chat-right-quote-fill text-primary fs-1"></i></div>
+                                    <div class="ms-4">
+                                        <p class="mb-1">The whole team was a huge help with putting things together for our company and brand. We will be hiring them again in the near future for additional work!</p>
+                                        <div class="small text-muted">- Client Name, Location</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <!-- Testimonial 1-->
+                        <div class="card mb-4">
+                            <div class="card-body p-4">
+                                <div class="d-flex">
+                                    <div class="flex-shrink-0"><i class="bi bi-chat-right-quote-fill text-primary fs-1"></i></div>
+                                    <div class="ms-4">
+                                        <p class="mb-1">Thank you for putting together such a great product. We loved working with you and the whole team, and we will be recommending you to others!</p>
+                                        <div class="small text-muted">- Client Name, Location</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                        <!-- Testimonial 2-->
+                    <div class="col-lg-4">
+                        <div class="card mb-4">
+                            <div class="card-body p-4">
+                                <div class="d-flex">
+                                    <div class="flex-shrink-0"><i class="bi bi-chat-right-quote-fill text-primary fs-1"></i></div>
+                                    <div class="ms-4">
+                                        <p class="mb-1">The whole team was a huge help with putting things together for our company and brand. We will be hiring them again in the near future for additional work!</p>
+                                        <div class="small text-muted">- Client Name, Location</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Contact section-->
+        <section class="bg-light py-5">
+            <div class="container px-5 my-5 px-5">
+                <div class="text-center mb-5">
+                    <div class="feature bg-primary bg-gradient text-white rounded-3 mb-3"><i class="bi bi-envelope"></i></div>
+                    <h2 class="fw-bolder">Simulasi</h2>
+                    <!-- <p class="lead mb-0">We'd love to hear from you</p> -->
+                </div>
+               
+            </div>
+        </section>
+        <!-- Footer-->
+        <footer class="py-5 bg-dark">
+            <div class="container px-5"><p class="m-0 text-center text-white">Copyright &copy; Your Website 2021</p></div>
+        </footer>
+        <!-- Bootstrap core JS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Core theme JS-->
+        <script src="js/scripts.js"></script>
+        <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
+        <!-- * *                               SB Forms JS                               * *-->
+        <!-- * * Activate your form at https://startbootstrap.com/solution/contact-forms * *-->
+        <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
+        <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
+    </body>
+</html>
